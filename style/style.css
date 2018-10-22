@@ -1,0 +1,35 @@
+.container{
+        width: 1000px;
+        min-height: 1000px;
+        padding:50px;
+        background-color: aqua;
+        font-family:monospace;
+}
+
+#find_movie, #file{
+        display: inline;
+}
+
+#search_result{
+        width: 100% ;
+        background-color: aliceblue;
+        padding: 10px;
+        min-height: 530px;
+}
+#addMovie{
+        margin-top:20px;
+}
+#ordered_list{
+        margin-top: 10px;
+        display: block;
+}
+.delete{
+        margin-top: 5px;
+        background-color:darkorange;
+}
+ul{
+        margin-left: -50px;
+}
+ol{
+        font-weight: bold;
+}

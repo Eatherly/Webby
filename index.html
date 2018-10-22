@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="libs/normolize.css">
+        <link rel="stylesheet" href="libs/bootstrap.min.css">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <center><h1>Moviemanager</h1></center>
+            <div class="row">
+
+                <div class="col-md-5">
+
+                    <div class="form-group">
+                        <lable>Please, use search-bar to filter information about movie or actor. You can press "space" first to see the all information list</lable>
+                        <input type="text" class="form-control" id="find_movie">
+                    </div>
+
+
+                    <div class="form-horizontal">
+                        <div>Please, fill the from to add new movie</div><br>
+                        <lable>Movie</lable>
+                        <input type="text" class="form-control" name="" id="addName">
+                        <lable>Year</lable>
+                        <input type="number" class="form-control" name="" id="addYear">
+                        <lable>Format</lable>
+                        <input type="text" class="form-control" name="" id="addFormat">
+                        <lable>Actors</lable>
+                        <input type="text" class="form-control" name="" id="addActors">
+
+                        <input type="button" class="btn btn-warning" id="addMovie" value="Add Movie">
+                    </div>
+                    <button class="btn btn-info" id="ordered_list">Show ordered list</button><br>
+                    <lable>Upload .txt file to database</lable>
+                    <input  type="file"  name="f" id="file">
+
+                </div>
+                <div class="col-md-7">
+                    <div id="search_result">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>    
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
